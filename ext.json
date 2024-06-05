@@ -5,8 +5,8 @@
   "area": "themes",
   "version": "1.0",
   "description": "A Dracula theme for Standard Notes",
-  "url": "https://raw.githubusercontent.com/Cpod12/standard-notes-dracula/main/theme.css",
-  "latest_url": "https://raw.githubusercontent.com/Cpod12/standard-notes-dracula/main/ext.json",
+  "url": "https://cpod12.github.io/standard-notes-dracula/theme.css",
+  "latest_url": "https://cpod12.github.io/standard-notes-dracula/ext.json",
   "download_url": "https://github.com/Cpod12/standard-notes-dracula/archive/refs/heads/main.zip",
   "marketing_url": "https://github.com/Cpod12/standard-notes-dracula",
   "dock_icon": {
