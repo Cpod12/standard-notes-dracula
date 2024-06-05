@@ -1,0 +1,19 @@
+{
+  "identifier": "com.cpod.sn-theme-dracula",
+  "name": "Dracula",
+  "content_type": "SN|Theme",
+  "area": "themes",
+  "version": "1.0",
+  "description": "A Dracula theme for Standard Notes",
+  "url": "https://github.com/Cpod12/standard-notes-dracula/theme.css",
+  "latest_url": "https://github.com/Cpod12/standard-notes-dracula/blob/master/ext.json",
+  "download_url": "https://github.com/Cpod12/standard-notes-dracula/archive/1.0.zip",
+  "marketing_url": "https://github.com/Cpod12/standard-notes-dracula",
+  "dock_icon": {
+    "type": "circle",
+    "background_color": "#bd93f9",
+    "foreground_color": "#bd93f9",
+    "border_color": "#bd93f9"
+  },
+  "statusBar": "dark-content"
+}
