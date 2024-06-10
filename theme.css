@@ -1,6 +1,5 @@
 :root {
   --background: #282a36;
-  --secondary-background: #303342;
   --current-line: #44475a;
   --foreground: #f8f8f2;
   --comment: #6272a4;
@@ -11,10 +10,10 @@
   --purple: #bd93f9;
   --cyan: #8be9fd;
   --yellow: #f1fa8c;
-  --bar-color: rgb(32, 34, 49);
-  --darker-background: rgb(25, 26, 33);
-  --dark-foreground: #adada9;
-  --darker-foreground: #949491;
+  --background-light: #303342;
+  --background-dark: #202231;
+  --foreground-dark: #adada9;
+  --foreground-darker: #949491;
   --sn-stylekit-accessory-tint-color-1: var(--purple);
   --sn-stylekit-accessory-tint-color-2: var(--pink);
   --sn-stylekit-accessory-tint-color-3: var(--orange);
@@ -42,13 +41,13 @@
   --sn-stylekit-editor-foreground-color: var(--sn-stylekit-foreground-color);
   --sn-stylekit-background-color: var(--background);
   --sn-stylekit-foreground-color: var(--foreground);
-  --sn-stylekit-border-color: var(--current-line);
-  --sn-stylekit-contrast-background-color: var(--bar-color);
+  --sn-stylekit-border-color: var(--background-dark);
+  --sn-stylekit-contrast-background-color: var(--background-dark);
   --sn-stylekit-contrast-foreground-color: var(--foreground);
-  --sn-stylekit-contrast-border-color: var(--current-line);
-  --sn-stylekit-secondary-background-color: var(--secondary-background);
+  --sn-stylekit-contrast-border-color: var(--background-dark);
+  --sn-stylekit-secondary-background-color: var(--background-light);
   --sn-stylekit-secondary-foreground-color: var(--foreground);
-  --sn-stylekit-secondary-border-color: var(--current-line);
+  --sn-stylekit-secondary-border-color: var(--background-dark);
   --sn-stylekit-secondary-contrast-background-color: var(--current-line);
   --sn-stylekit-secondary-contrast-foreground-color: var(--foreground);
   --sn-stylekit-secondary-contrast-border-color: var(--foreground);
@@ -59,11 +58,10 @@
   --sn-desktop-titlebar-ui-hover-color: var(--highlight-color);
   --sn-stylekit-scrollbar-track-border-color: var(--comment);
   --sn-stylekit-scrollbar-thumb-color: var(--sn-stylekit-info-color);
-  --sn-stylekit-passive-color-0: var(--dark-foreground);
-  --sn-stylekit-passive-color-1: var(--dark-foreground);
-  --sn-stylekit-passive-color-3: var(--current-line);
-  --sn-stylekit-passive-color-4: var(--background);
-  --sn-stylekit-passive-color-5: var(--bar-color);
+  --sn-stylekit-passive-color-0: var(--foreground-dark);
+  --sn-stylekit-passive-color-1: var(--foreground-darker);
+  --sn-stylekit-passive-color-3: var(--comment);
+  --sn-stylekit-passive-color-5: var(--background-dark);
   --navigation-item-selected-background-color: var(--current-line);
 }
 
