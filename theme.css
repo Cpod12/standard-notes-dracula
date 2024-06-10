@@ -10,8 +10,10 @@
   --purple: #bd93f9;
   --cyan: #8be9fd;
   --yellow: #f1fa8c;
-  --background-light: #303342;
-  --background-dark: #202231;
+  --background-lighter: #424450;
+  --background-light: #343746;
+  --background-dark: #21222C;
+  --background-darker: #191A21;
   --foreground-dark: #adada9;
   --foreground-darker: #949491;
   --sn-stylekit-accessory-tint-color-1: var(--purple);
@@ -42,7 +44,7 @@
   --sn-stylekit-background-color: var(--background);
   --sn-stylekit-foreground-color: var(--foreground);
   --sn-stylekit-border-color: var(--background-dark);
-  --sn-stylekit-contrast-background-color: var(--background-dark);
+  --sn-stylekit-contrast-background-color: var(--background-darker);
   --sn-stylekit-contrast-foreground-color: var(--foreground);
   --sn-stylekit-contrast-border-color: var(--background-dark);
   --sn-stylekit-secondary-background-color: var(--background-light);
@@ -60,8 +62,8 @@
   --sn-stylekit-scrollbar-thumb-color: var(--sn-stylekit-info-color);
   --sn-stylekit-passive-color-0: var(--foreground-dark);
   --sn-stylekit-passive-color-1: var(--foreground-darker);
-  --sn-stylekit-passive-color-3: var(--comment);
-  --sn-stylekit-passive-color-5: var(--background-dark);
+  --sn-stylekit-passive-color-3: var(--background-lighter);
+  --sn-stylekit-passive-color-5: var(--background-darker);
   --navigation-item-selected-background-color: var(--current-line);
 }
 
