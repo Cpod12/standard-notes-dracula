@@ -16,6 +16,7 @@
   --background-darker: #191A21;
   --foreground-dark: #adada9;
   --foreground-darker: #949491;
+  --border: var(--comment);
   --sn-stylekit-accessory-tint-color-1: var(--purple);
   --sn-stylekit-accessory-tint-color-2: var(--pink);
   --sn-stylekit-accessory-tint-color-3: var(--orange);
@@ -43,13 +44,13 @@
   --sn-stylekit-editor-foreground-color: var(--sn-stylekit-foreground-color);
   --sn-stylekit-background-color: var(--background);
   --sn-stylekit-foreground-color: var(--foreground);
-  --sn-stylekit-border-color: var(--background-dark);
+  --sn-stylekit-border-color: var(--border);
   --sn-stylekit-contrast-background-color: var(--background-darker);
   --sn-stylekit-contrast-foreground-color: var(--foreground);
-  --sn-stylekit-contrast-border-color: var(--background-dark);
+  --sn-stylekit-contrast-border-color: var(--border);
   --sn-stylekit-secondary-background-color: var(--background-light);
   --sn-stylekit-secondary-foreground-color: var(--foreground);
-  --sn-stylekit-secondary-border-color: var(--background-dark);
+  --sn-stylekit-secondary-border-color: var(--border);
   --sn-stylekit-secondary-contrast-background-color: var(--current-line);
   --sn-stylekit-secondary-contrast-foreground-color: var(--foreground);
   --sn-stylekit-secondary-contrast-border-color: var(--foreground);
@@ -62,7 +63,7 @@
   --sn-stylekit-scrollbar-thumb-color: var(--sn-stylekit-info-color);
   --sn-stylekit-passive-color-0: var(--foreground-dark);
   --sn-stylekit-passive-color-1: var(--foreground-darker);
-  --sn-stylekit-passive-color-3: var(--background-dark);
+  --sn-stylekit-passive-color-3: var(--border);
   --sn-stylekit-passive-color-4: var(--background-dark);
   --sn-stylekit-passive-color-5: var(--background-darker);
   --navigation-item-selected-background-color: var(--current-line);
