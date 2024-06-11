@@ -16,7 +16,7 @@
   --background-darker: #191A21;
   --foreground-dark: #adada9;
   --foreground-darker: #949491;
-  --border: var(--current-line);
+  --border: var(--background-lighter);
   --sn-stylekit-accessory-tint-color-1: var(--purple);
   --sn-stylekit-accessory-tint-color-2: var(--pink);
   --sn-stylekit-accessory-tint-color-3: var(--orange);

@@ -3,11 +3,11 @@
   "name": "Dracula VS Code",
   "content_type": "SN|Theme",
   "area": "themes",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A Dracula theme for Standard Notes using the colors from the Visual Studio Code theme",
   "url": "https://cpod12.github.io/standard-notes-dracula-vs-code/theme.css",
   "latest_url": "https://cpod12.github.io/standard-notes-dracula-vs-code/ext.json",
-  "download_url": "https://github.com/cpod12/standard-notes-dracula/archive/refs/tags/1.0.3.zip",
+  "download_url": "https://github.com/cpod12/standard-notes-dracula/archive/refs/tags/1.0.4.zip",
   "marketing_url": "https://github.com/cpod12/standard-notes-dracula-vs-code",
   "thumbnail_url": "https://cpod12.github.io/standard-notes-dracula-vs-code/screenshot.png",
   "dock_icon": {
